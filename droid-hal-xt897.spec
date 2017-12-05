@@ -9,6 +9,10 @@
 
 %define installable_zip 1
 
+%define android_config \
+#define DROID_AUDIO_HAL_ATOI_FIX 1\
+%{nil}
+
 %define straggler_files \
 /init.qcom.sh\
 /init.qcom.usb.sh\
